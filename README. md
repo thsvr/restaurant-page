@@ -23,15 +23,17 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Installation](#installation)
-  * [Built With](#built-with)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+- [About the Project](#about-the-project)
+  - [Installation](#installation)
+  - [Built With](#built-with)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 The main goal of this project is build a restaurant homepage using Javacript. IMPROVE THAT DESCRIPTION.
@@ -41,18 +43,22 @@ The main goal of this project is build a restaurant homepage using Javacript. IM
 </div>
 
 <!-- ABOUT THE PROJECT -->
+
 ## Installation
 
 Download or clone the [repo here](https://github.com/thsvr/restaurant-page) and open the html file in the browser of your choice.
 
 ### Built With
+
 This project was built using these technologies.
-* HTML
-* CSS3
-* Javascript
-* Bootstrap
+
+- HTML
+- CSS3
+- Javascript
+- Bootstrap
 
 <!-- CONTACT -->
+
 ## Contact
 
 👤 **Thaís Vieira Azevedo**
@@ -62,18 +68,20 @@ This project was built using these technologies.
 - Linkedin: [Thaís V.](https://www.linkedin.com/in/vr-ths-zd/)
 - Email: [vr.ths.zd@gmail.com](vr.ths.zd@gmail.com)
 
-
 <br />
 <br />
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## Acknowledgements
-* [Microverse](https://www.microverse.org/)
-* [The Odin Project](https://www.theodinproject.com/)
-* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+- [Microverse](https://www.microverse.org/)
+- [The Odin Project](https://www.theodinproject.com/)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/thsvr/restaurant-page.svg?style=flat-square
 [contributors-url]: https://github.com/thsvr/restaurant-page/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/thsvr/restaurant-page.svg?style=flat-square
@@ -83,4 +91,3 @@ This project was built using these technologies.
 [issues-shield]: https://img.shields.io/github/issues/thsvr/restaurant-page.svg?style=flat-square
 [issues-url]: https://github.com/thsvr/restaurant-page
 [product-screenshot]: img/screenshot.PNG
-
