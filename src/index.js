@@ -1,11 +1,10 @@
-import _ from 'lodash';
+import Menu from './components/menu';
 
-function component() {
-  const element = document.createElement("div");
+const render = () => {
+  Menu.renderAbout()
+};
 
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
+render();
+  
 
-  return element;
-}
-
-document.body.appendChild(component());
+console.log('testing');
