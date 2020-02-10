@@ -1,7 +1,3 @@
-body {
-  overflow: hidden;
-}
-
 .bg-rose {
   background-color: #b08f85;
 }
@@ -10,7 +6,7 @@ body {
   color: #e6dfd1;
 }
 
-.logo-text {  
+.logo-text {
   color: rgb(121, 37, 1);
   font-size: 35px;
   font-family: "Berkshire Swash", Helvetica, sans-serif;
@@ -51,38 +47,50 @@ i:hover {
   background-image: url("../public/img/location.jpg");
 }
 
-.main, .main-location {
-  
+.main,
+.main-location {
   background-size: cover;
-  background-color: red;
   background-repeat: no-repeat;
   width: 1450px;
   height: 80vh;
   position: relative;
 }
 
-.description-main, .description-location {
+.description-main,
+.description-location {
   position: absolute;
   width: 400px;
   height: 200px;
   border: 5px solid wheat;
   z-index: 1;
   left: 37%;
-  background-color: #71442F;
+  background-color: #71442f;
   opacity: 0.8;
 }
 
 .contact-text {
-  color: #E6DFD1;
+  color: #e6dfd1;
 }
-
 
 figure {
   display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 10em;
   margin-left: 40px;
   margin-right: 40px;
+  width: 400px;
+  height: 400px;
+}
+
+figcaption {
+  margin-top: 5px;
+  width: 200px;
+  height: 20px;
+}
+
+.menu-img {
+  width: 400px;
+  height: 400px;
 }
 
 img {
@@ -92,7 +100,7 @@ img {
 
 .social-media {
   width: 100%;
-  height:60px;
+  height: 60px;
   box-sizing: border-box;
   padding: 14px;
   position: fixed;
@@ -106,8 +114,9 @@ img {
   font-size: 30px;
 }
 
-.credits, .credits a {
-  color: #E6DFD1;
+.credits,
+.credits a {
+  color: #e6dfd1;
   font-size: 9px;
 }
 
