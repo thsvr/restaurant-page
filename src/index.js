@@ -29,10 +29,10 @@ render();
 
 [...document.getElementsByClassName('nav-item')].forEach(li => {
   li.addEventListener('click', () => {
-    if (li.id === 'menu') {
-      Menu.renderMenuPage();
-    } else if (li.id === 'homepage') {
+    if (li.id === 'homepage') {
       Homepage.renderHomepage();
+    } else if (li.id === 'menu') {
+      Menu.renderMenuPage();
     } else if (li.id === 'location') {
       Location.renderLocation();
     } else if (li.id === 'contact') {
