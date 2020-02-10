@@ -1,4 +1,3 @@
-import img2 from '../components/img2.jpg';
 
 const Menu = (() => {
   const renderMenuPage = () => {
