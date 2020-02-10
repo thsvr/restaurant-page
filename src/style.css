@@ -35,7 +35,7 @@ i:hover {
 }
 
 .main {
-  background-image: url("../img/img1.jpg");
+  background-image: url("../public/img/img1.jpg");
   background-size: 1300px 550px;
   background-repeat: no-repeat;
   width: 100%;
@@ -52,6 +52,10 @@ i:hover {
   left: 0;
   background-color: #2a1916;
   color: #b08f85;
+}
+
+body {
+  background-color: blueviolet;
 }
 
 
