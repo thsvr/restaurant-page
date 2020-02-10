@@ -1,10 +1,10 @@
 import Menu from './components/menu';
 
 const render = () => {
-  Menu.renderAbout()
+   Menu.renderMenuPage()
+  
 };
 
 render();
-  
+console.log('testing'); 
 
-console.log('testing');
