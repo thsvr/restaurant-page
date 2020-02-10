@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .bg-rose {
   background-color: #b08f85;
 }
@@ -6,10 +10,15 @@
   color: #e6dfd1;
 }
 
-.logo-text {
+.logo-text {  
   color: rgb(121, 37, 1);
-  font: 900 100px/1.3 "Berkshire Swash", Helvetica, sans-serif;
+  font-size: 35px;
+  font-family: "Berkshire Swash", Helvetica, sans-serif;
   text-shadow: 1px 1px 0px #e6dfd1, 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.text-navbar {
+  font-size: 30px;
 }
 
 .logo-text:hover,
@@ -36,17 +45,28 @@ i:hover {
 
 .main {
   background-image: url("../public/img/img1.jpg");
-  background-size: 1300px 550px;
+  background-size: cover;
+  background-color: red;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 90vh;
+  width: 1450px;
+  height: 80vh;
+  position: relative;
+}
+
+.description-main {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  border: 5px solid wheat;
+  z-index: 1;
+  left: 37%;
 }
 
 .social-media {
   width: 100%;
-  height:50px;
+  height:60px;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 14px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -54,10 +74,14 @@ i:hover {
   color: #b08f85;
 }
 
-body {
-  background-color: blueviolet;
+.social-media i {
+  font-size: 30px;
 }
 
+.credits, .credits a {
+  color: #E6DFD1;
+  font-size: 9px;
+}
 
 /* palete
   #B08F85 rosé
