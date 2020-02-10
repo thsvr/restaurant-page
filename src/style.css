@@ -45,6 +45,14 @@ i:hover {
 
 .main {
   background-image: url("../public/img/img1.jpg");
+}
+
+.main-location {
+  background-image: url("../public/img/location.jpg");
+}
+
+.main, .main-location {
+  
   background-size: cover;
   background-color: red;
   background-repeat: no-repeat;
@@ -53,14 +61,21 @@ i:hover {
   position: relative;
 }
 
-.description-main {
+.description-main, .description-location {
   position: absolute;
   width: 400px;
   height: 200px;
   border: 5px solid wheat;
   z-index: 1;
   left: 37%;
+  background-color: #71442F;
+  opacity: 0.8;
 }
+
+.contact-text {
+  color: #E6DFD1;
+}
+
 
 figure {
   display: block;
