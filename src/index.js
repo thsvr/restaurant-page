@@ -1,6 +1,7 @@
 import Homepage from './components/homepage';
 import Menu from './components/menu';
 import Location from './components/location';
+import Contact from './components/contact';
 
 const render = () => {
   document.getElementById('content').innerHTML = `<nav class="navbar navbar-expand-lg bg-rose">
@@ -34,6 +35,8 @@ render();
       Homepage.renderHomepage();
     } else if (li.id === 'location') {
       Location.renderLocation();
+    } else if (li.id === 'contact') {
+      Contact.renderContact();
     }
   });
 });
