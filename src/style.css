@@ -59,13 +59,15 @@ i:hover {
 .description-main,
 .description-location {
   position: absolute;
+  margin-top: 180px;
   width: 400px;
   height: 200px;
-  border: 5px solid wheat;
+  border: 5px solid #2A1916;
   z-index: 1;
   left: 37%;
-  background-color: #71442f;
-  opacity: 0.8;
+  background-color: #E6DFD1;
+  opacity: 0.5;
+  text-align: center;
 }
 
 .contact-text {
