@@ -19,7 +19,7 @@ const Location = (() => {
 
     const adress = document.createElement('h2');
     descriptionLocation.appendChild(adress);
-    adress.append('000 Newbury St, Boston - MA 02116, United States');
+    adress.append('Visit us: 000 Newbury St, Boston - MA 02116, United States');
 
     content.appendChild(mainLocation);
   };

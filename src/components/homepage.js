@@ -17,12 +17,6 @@ const Homepage = (() => {
 
     content.appendChild(main);
 
-
-    // content.innerHTML = `<article class="main"> 
-    //   <div class='description-main'>
-    //     <h1>Fill it with some description</h1>
-    //   </div>
-    // </article>`;
   };
   return {
     renderHomepage,
