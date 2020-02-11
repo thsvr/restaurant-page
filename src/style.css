@@ -91,11 +91,19 @@ figcaption {
 .menu-img {
   width: 400px;
   height: 400px;
+  box-shadow: 3px 3px 3px 3px #B08F85;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.fig-text {
+  color: #2A1916;
+  text-shadow: 2px 2px 4px #B08F85;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .social-media {
