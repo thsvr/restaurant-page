@@ -29,9 +29,8 @@ const render = () => {
     <i class="fab fa-instagram social-nav" aria-hidden="true"></i>
   </div>
   <div class='d-flex justify-content-end credits'/>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-</footer>`;
-
-  document.getElementById('content').innerHTML += '<div id="tabContent"></div>';
+</footer>
+<div id="tabContent"></div>`;
   Homepage.renderHomepage();
 };
 

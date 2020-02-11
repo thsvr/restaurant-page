@@ -1,7 +1,7 @@
 {
   "name": "restaurant-page",
   "version": "1.0.0",
-  "description": "[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url]",
+  "description": "This is a simple restaurant page.",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/thsvr/restaurant-page.git"
   },
-  "author": "",
+  "author": "Thaís Vieira",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thsvr/restaurant-page/issues"
@@ -26,11 +26,8 @@
     "file-loader": "^5.0.2",
     "style-loader": "^1.1.3",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
-  },
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "lodash": "^4.17.15",
+    "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "dependencies": {}
 }
