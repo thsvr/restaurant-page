@@ -5,7 +5,7 @@ const Homepage = (() => {
 
     const main = document.createElement('article');
     main.classList.add('main');
-    
+
     const descriptionMain = document.createElement('div');
     descriptionMain.classList.add('description-main');
     main.append(descriptionMain);
@@ -16,7 +16,6 @@ const Homepage = (() => {
 
 
     content.appendChild(main);
-
   };
   return {
     renderHomepage,

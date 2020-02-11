@@ -6,13 +6,13 @@ import Contact from './components/contact';
 
 
 const render = () => {
-  const content = document.getElementById('content'); //is ti have to be tabcontent?
+  const content = document.getElementById('content');
   content.innerHTML = '';
 
   const navbar = document.createElement('nav');
   navbar.classList.add('navbar');
   navbar.classList.add('bg-rose');
-  navbar.classList.add('navbar-expand-lg'); //it can be removed eventually;
+  navbar.classList.add('navbar-expand-lg');
 
   const ul = document.createElement('ul');
   ul.classList.add('navbar-nav');
@@ -98,22 +98,20 @@ const render = () => {
   content.appendChild(tabContent);
 
 
-[...document.getElementsByClassName('nav-item')].forEach(li => {
-  li.addEventListener('click', () => {
-    if (li.id === 'homepage') {
-      Homepage.renderHomepage();
-    } else if (li.id === 'menu') {
-      Menu.renderMenuPage();
-    } else if (li.id === 'location') {
-      Location.renderLocation();
-    } else if (li.id === 'contact') {
-      Contact.renderContact();
-    }
+  [...document.getElementsByClassName('nav-item')].forEach(li => {
+    li.addEventListener('click', () => {
+      if (li.id === 'homepage') {
+        Homepage.renderHomepage();
+      } else if (li.id === 'menu') {
+        Menu.renderMenuPage();
+      } else if (li.id === 'location') {
+        Location.renderLocation();
+      } else if (li.id === 'contact') {
+        Contact.renderContact();
+      }
+    });
   });
-});
   Homepage.renderHomepage();
 };
 
 render();
-
-
