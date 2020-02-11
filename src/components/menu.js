@@ -2,8 +2,10 @@
 const Menu = (() => {
   const renderMenuPage = () => {
     const content = document.getElementById('tabContent');
-    content.innerHTML = `<p> Menu content not done yet.</p>
+    const menu = document.createElement('div');
+    content.innerHTML = `
 <div class='d-flex row'>
+<h1 class="mx-5">Menu</h1>
 <figure>
 <img src='./img/img2.jpg' alt= 'cake' class="menu-img"></img>
 <figcaption>Cup Cake </figcaption>
