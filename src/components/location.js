@@ -14,12 +14,19 @@ const Location = (() => {
 
     const cardContent = document.createElement('h1');
     cardContent.classList.add('contact-text');
+    cardContent.classList.add('logo-text')
     descriptionLocation.appendChild(cardContent);
-    cardContent.append('Do you wanna try the best chocolate ever?');
+    cardContent.append('We will be happy to share good moments with you');
 
-    const adress = document.createElement('h2');
+    const btnIcon2 = document.createElement('i');
+    btnIcon2.classList.add('fas');
+    btnIcon2.classList.add('fa-map-marked-alt');
+    btnIcon2.classList.add('social-nav');
+    cardContent.append(btnIcon2);
+
+    const adress = document.createElement('h3');
     descriptionLocation.appendChild(adress);
-    adress.append('Visit us: 000 Newbury St, Boston - MA 02116, United States');
+    adress.append(' 000 Newbury St, Boston - MA 02116, United States');
 
     content.appendChild(mainLocation);
   };

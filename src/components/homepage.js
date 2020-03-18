@@ -11,6 +11,7 @@ const Homepage = (() => {
     main.append(descriptionMain);
 
     const descriptionText = document.createElement('h2');
+    descriptionText.classList.add('logo-text')
     descriptionText.append('Welcome to Chocolate Suisse :)');
     descriptionMain.append(descriptionText);
 
