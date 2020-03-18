@@ -49,8 +49,14 @@ const Contact = (() => {
 
     const buttonSubmit = document.createElement('button');
     buttonSubmit.classList.add('btn-submit');
-    buttonSubmit.append('Submit');
+    // buttonSubmit.append('Submit');
     container.appendChild(buttonSubmit);
+
+    const btnIcon = document.createElement('i');
+    btnIcon.classList.add('fa');
+    btnIcon.classList.add('fa-share-square');
+    btnIcon.classList.add('social-nav');
+    buttonSubmit.append(btnIcon);
 
     content.appendChild(container);
   };

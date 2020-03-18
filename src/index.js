@@ -66,10 +66,7 @@ const render = () => {
   footer.classList.add('social-media');
 
   const divFooter = document.createElement('div');
-  divFooter.classList.add('icons-div');
-  // divFooter.classList.add('d-flex');
-  // divFooter.classList.add('justify-content-center');
-  
+  divFooter.classList.add('icons-div');  
 
   const footerIcon = document.createElement('i');
   footerIcon.classList.add('fab');

@@ -123,16 +123,47 @@ img {
   font-size: 25px;
 }
 
+/* COBTACT US
+ */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color:#b08f85;
   color: #2A1916;
   border-radius: 10%;
+  width: 10%;
+  padding: 5px;
 }
 
 .btn-submit:hover {
   background-color: #2A1916;
   color: #b08f85;
 }
+
+.form-group, .form-control, label {
+  width: 50%;
+}
+
+label {
+  color:#2A1916; 
+  font-weight: bolder;
+}
+
+.form-group, .form-control {
+  background-color: #E6DFD1;
+}
+
+/* FOOTER
+ */
 
 .social-media {
   display: flex;
