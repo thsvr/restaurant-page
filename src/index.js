@@ -66,28 +66,49 @@ const render = () => {
   footer.classList.add('social-media');
 
   const divFooter = document.createElement('div');
-  divFooter.classList.add('d-flex');
-  divFooter.classList.add('justify-content-center');
+  divFooter.classList.add('icons-div');
+  // divFooter.classList.add('d-flex');
+  // divFooter.classList.add('justify-content-center');
+  
 
   const footerIcon = document.createElement('i');
   footerIcon.classList.add('fab');
   footerIcon.classList.add('fa-twitter');
   footerIcon.classList.add('social-nav');
-  footerIcon.classList.add('px-2');
   divFooter.append(footerIcon);
+  footer.appendChild(divFooter);
 
   const footerIcon2 = document.createElement('i');
   footerIcon2.classList.add('fab');
   footerIcon2.classList.add('fa-instagram');
   footerIcon2.classList.add('social-nav');
-  footerIcon2.classList.add('px-2');
   divFooter.append(footerIcon2);
   footer.appendChild(divFooter);
 
+  const footerIcon3 = document.createElement('i');
+  footerIcon3.classList.add('fab');
+  footerIcon3.classList.add('fa-facebook');
+  footerIcon3.classList.add('social-nav');
+  divFooter.append(footerIcon3);
+  footer.appendChild(divFooter);
+
+  const footerIcon4 = document.createElement('i');
+  footerIcon4.classList.add('fab');
+  footerIcon4.classList.add('fa-whatsapp');
+  footerIcon4.classList.add('social-nav');
+  divFooter.append(footerIcon4);
+  footer.appendChild(divFooter);
+
+  const footerIcon5 = document.createElement('i');
+  footerIcon5.classList.add('fab');
+  footerIcon5.classList.add('fa-telegram-plane');
+  footerIcon5.classList.add('social-nav');
+  divFooter.append(footerIcon5);
+  footer.appendChild(divFooter);
+
   const divFooter2 = document.createElement('div');
-  divFooter2.classList.add('d-flex');
-  divFooter2.classList.add('justify-content-end');
-  divFooter2.append('Icons made by flaticon.com');
+  divFooter2.classList.add('phrase-div');
+  divFooter2.append('Icons made by fontawesome.com');
   footer.appendChild(divFooter2);
 
   content.appendChild(navbar);
