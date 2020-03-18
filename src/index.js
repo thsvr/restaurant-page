@@ -105,7 +105,7 @@ const render = () => {
 
   const divFooter2 = document.createElement('div');
   divFooter2.classList.add('phrase-div');
-  divFooter2.append('Icons made by fontawesome.com');
+  divFooter2.append('Icons by fontawesome.com and photos by canva.com');
   footer.appendChild(divFooter2);
 
   content.appendChild(navbar);
