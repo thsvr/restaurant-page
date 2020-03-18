@@ -11,7 +11,7 @@
   </a>
 
   <h3 align="center">Restaurant Page -
-  <a href='https://raw.githack.com/thsvr/restaurant-page/page/index.html'> Live version IN PROGRESS</a></h3>
+  <a href='https://thsvr.github.io/restaurant-page/'> Live version</a></h3>
 
   <p align="center">
     This project is part of the Microverse Javacript Section!
