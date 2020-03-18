@@ -14,7 +14,7 @@
   <a href='https://raw.githack.com/thsvr/restaurant-page/page/index.html'> Live version IN PROGRESS</a></h3>
 
   <p align="center">
-    This project is part of the Microverse Javacript Section!
+    This project is part of the Microverse Javacript Section
     <br />
     <a href="https://github.com/thsvr/restaurant-page/issues">Report Bug</a>
     ·
@@ -46,7 +46,12 @@ The main goal of this project is build a restaurant homepage using Javacript. IM
 
 ## Installation
 
-Download or clone the [repo here](https://github.com/thsvr/restaurant-page) and open the html file in the browser of your choice.
+Download or clone the [repo here](https://github.com/thsvr/restaurant-page), enter the directory in the terminal and run the commands:
+
+- `npm i`
+- `npm run bundle`
+- `npm run start`
+  Your default browser should open the app at the localhost:8080
 
 ### Built With
 
@@ -54,7 +59,7 @@ This project was built using these technologies.
 
 - HTML
 - CSS3
-- Javascript
+- Vanila Javascript
 - Bootstrap
 
 <!-- CONTACT -->
