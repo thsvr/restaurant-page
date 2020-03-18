@@ -36,11 +36,15 @@
 
 ## About The Project
 
-The main goal of this project is build a restaurant homepage using Javacript. IMPROVE THAT DESCRIPTION.
+The main goal of this project is build a restaurant homepage using  Vanilla Javacript.
 
-<div align="center">
+## Preview
+
+![](chocolate-page.gif)
+
+<!-- <div align="center">
   <img src="public/img/screenshot.png" width="800">
-</div>
+</div> -->
 
 <!-- ABOUT THE PROJECT -->
 
@@ -56,6 +60,7 @@ This project was built using these technologies.
 - CSS3
 - Javascript
 - Bootstrap
+- Webpack
 
 <!-- CONTACT -->
 
