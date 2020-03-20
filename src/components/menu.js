@@ -1,4 +1,3 @@
-
 const Menu = (() => {
   const renderMenuPage = () => {
     const content = document.getElementById('tabContent');

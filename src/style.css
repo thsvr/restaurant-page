@@ -52,8 +52,6 @@ i:hover {
 /* MAIN PAGE and LOCATION
  */
 
-
-
  .main {
   background-image:url('../dist/img/main6.jpg');
   display: flex;
@@ -91,12 +89,6 @@ i:hover {
   left: 30%;
   background-color: white;
   opacity: 0.8;
- /* margin-top: 180px;
-  border: 5px solid #2A1916;
-  
-  background-color: #E6DFD1;
-  
-  text-align: center; */
 }
 
 .description-main {
@@ -107,6 +99,7 @@ i:hover {
 .description-location {
   width: 600px;
   height: 200px;
+  padding-top: 15px;
 }
 
 .contact-text {
@@ -117,6 +110,7 @@ i:hover {
 .fa-map-marked-alt {
   margin-top: 25px;
 }
+
 /* MENU
  */
 
